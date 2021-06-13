@@ -1,0 +1,14 @@
+@import "vars";
+
+.main-link {
+  font-family: $main-font;
+  transition-duration: 0.5s;
+  text-decoration: none;
+  background-color: $accent-color;
+  border-radius: 2em;
+  padding: 1em 1.5em;
+  color: $light;
+}
+.main-link:hover {
+  color: $secondary-color;
+}

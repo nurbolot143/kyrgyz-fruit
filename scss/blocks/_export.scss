@@ -1,0 +1,58 @@
+@import "../vars";
+
+.export {
+  font-family: $main-font;
+  padding-top: 160px;
+  background: linear-gradient(45deg, #fff, #fff0dc);
+  .export-place {
+    text-align: center;
+    padding: 0;
+    display: block;
+    width: 292px;
+    border-radius: 2em;
+    padding: 16px;
+    background-color: #fff0dc;
+    color: $accent-color;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 130%;
+    span {
+      color: $secondary-color;
+    }
+  }
+
+  .export-title {
+    color: $secondary-color;
+    padding-top: 90px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 130%;
+    span {
+      color: $accent-color;
+    }
+  }
+
+  .price {
+    padding-top: 40px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 160%;
+    color: $secondary-color;
+    p {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 160%;
+    }
+  }
+  .export-item {
+    padding-top: 40px;
+    text-align: center;
+    padding-bottom: 82px;
+  }
+  .export-link {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+  }
+}

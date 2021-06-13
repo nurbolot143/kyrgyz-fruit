@@ -1,0 +1,21 @@
+@import "../vars";
+
+.catalog {
+  font-family: $main-font;
+  .card {
+    border: none;
+    padding-bottom: 3em;
+  }
+}
+.catalog-text {
+  padding: 1em 0;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 180%;
+}
+.catalog-link {
+  padding: 1em 1.5em;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 180%;
+}

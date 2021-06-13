@@ -1,0 +1,42 @@
+@import "../vars";
+
+.about {
+  font-family: $main-font;
+  text-align: center;
+  padding: 3em 0;
+  &-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 180%;
+    color: $accent-color;
+    text-transform: uppercase;
+    margin-bottom: 2em;
+  }
+  &-us {
+    text-align: left;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    color: #000000;
+    margin-bottom: 2em;
+    .logo {
+      font-weight: 500;
+      font-size: 16px;
+    }
+  }
+  &-services {
+    .card {
+      border: none;
+      max-width: 174px;
+      &_text {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 160%;
+        color: #000000;
+      }
+    }
+    .img {
+      width: 88px;
+    }
+  }
+}

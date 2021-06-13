@@ -1,0 +1,39 @@
+@import "../vars";
+
+.header {
+  font-family: $main-font;
+  margin-top: 15px;
+  .navbar {
+    background-color: #fff0dc !important;
+  }
+  a:hover {
+    color: $secondary-color;
+    transition-duration: 0.3s;
+  }
+
+  .nav-item {
+    a:hover {
+      color: $accent-color !important;
+    }
+  }
+  .nav-link {
+    text-transform: uppercase;
+    font-family: $main-font;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 130%;
+    color: $secondary-color !important;
+  }
+  .nav-item + .nav-item {
+    margin-left: 1.5em;
+  }
+}
+@media (max-width: 992px) {
+  .nav-item + .nav-item {
+    margin-left: 0;
+  }
+  .navbar-nav {
+    margin-top: 1em;
+    text-align: right;
+  }
+}

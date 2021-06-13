@@ -1,0 +1,36 @@
+@import "../vars";
+
+.footer {
+  font-family: $main-font;
+  &-item {
+    max-width: 265px;
+    padding-bottom: 1.5em;
+  }
+  .list-group-item {
+    border: none;
+    padding-left: 0;
+  }
+
+  &-title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: $accent-color;
+  }
+
+  &-link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: $secondary-color;
+    padding-right: 1em;
+  }
+  &-link:hover {
+    color: $accent-color;
+  }
+
+  &-copy {
+    margin: 1em 0;
+  }
+}
